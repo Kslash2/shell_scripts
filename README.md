@@ -1,14 +1,20 @@
 # shell_scripts
 This repo is for my shell scripts. I use Debian.
 
-The main file is main.sh remember to enable exec permission for it (chmod a+x main.sh)
+The main file is:
+# main.sh
+Remember to enable exec permission for it (chmod a+x main.sh)
 Then you can run it: sudo ./main.sh
 
 It will execute:
-wicd_inst.sh which will remove network-manager and install wicd
-packages_inst.sh which will install some of the packages I always install on Debian
-macchanger_inst.sh which will install macchanger
-tor_inst.sh which will install tor
+# wicd_inst.sh 
+It will remove network-manager and install wicd
+# packages_inst.sh 
+It will install some of the packages I always install on Debian
+# macchanger_inst.sh 
+It will install macchanger
+# tor_inst.sh 
+It will install tor
 
 Interesting sources:
 
