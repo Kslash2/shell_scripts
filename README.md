@@ -1,4 +1,4 @@
-# shell_scripts
+## shell_scripts
 This repo is for my shell scripts. I use Debian.
 
 The main file is:
@@ -16,7 +16,8 @@ It will install macchanger
 # tor_inst.sh 
 It will install tor
 
-Interesting sources:
+
+#Interesting sources:
 
 Wicd: https://wiki.archlinux.org/index.php/Wicd#Installation
 Macchanger: https://wiki.archlinux.org/index.php/MAC_address_spoofing#macchanger_2
