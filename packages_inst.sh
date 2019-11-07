@@ -21,24 +21,23 @@ echo "Running upgrade..."
 apt upgrade
 
 packages_list="gnome-icon-theme
-moka-icon-theme
-numix-icon-theme
-moka-icon-theme
-numix-gtk-theme
-arc-theme
-git
-transmission
-python3-dev
-python3-pip
-python3-setuptools
-hexchat
-wget
-software-properties-common 
-apt-transport-https
-curl
-openssh-client
-vlc
-"
+               moka-icon-theme
+               numix-icon-theme
+               moka-icon-theme
+               numix-gtk-theme
+               arc-theme
+               git
+               transmission
+               python3-dev
+               python3-pip
+               python3-setuptools
+               hexchat
+               wget
+               software-properties-common 
+               apt-transport-https
+               curl
+               openssh-client
+               vlc"
 
 echo "Installing packages..."
 apt install -y $packages_list
