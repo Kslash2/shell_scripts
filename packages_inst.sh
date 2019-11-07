@@ -27,6 +27,10 @@ moka-icon-theme
 numix-gtk-theme
 arc-theme
 git
+transmission
+python3-dev
+python3-pip
+python3-setuptools
 hexchat
 wget
 software-properties-common 
@@ -38,3 +42,4 @@ vlc
 
 echo "Installing packages..."
 apt install -y $packages_list
+pip3 install thefuck
