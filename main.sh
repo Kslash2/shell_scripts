@@ -5,8 +5,10 @@ chmod a+x packages_inst.sh
 chmod a+x macchanger_inst.sh
 chmod a+x tor_inst.sh
 
-echo "Executing wicd_inst.sh ..."
-./wicd_inst.sh
+# This is commented because I installed Debian Gnome instead of Mate
+# and I'm not going to use wicd for now.
+# echo "Executing wicd_inst.sh ..."
+# ./wicd_inst.sh
 echo "Executing packages_inst.sh ..."
 ./packages_inst.sh
 echo "Executing macchanger_inst.sh ..."
