@@ -37,7 +37,8 @@ packages_list="gnome-icon-theme
                apt-transport-https
                curl
                openssh-client
-               vlc"
+               vlc
+               haskell-platform"
 
 echo "Installing packages..."
 apt install -y $packages_list
