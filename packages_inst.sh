@@ -39,7 +39,8 @@ packages_list="gnome-icon-theme
                openssh-client
                vlc
                haskell-platform
-               default-jdk"
+               default-jdk
+               arduino"
 
 echo "Installing packages..."
 apt install -y $packages_list
