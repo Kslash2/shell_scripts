@@ -39,6 +39,7 @@ packages_list="gnome-icon-theme
                openssh-client
                vlc
                haskell-platform
+               haskell-stack
                default-jdk
                arduino"
 
